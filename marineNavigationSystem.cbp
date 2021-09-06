@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="marineNavigationSystem" />
+		<Option pch_mode="0" />
+		<Option compiler="gcc" />
+		<Option virtualFolders="allPanelWithSequence/;allThreadFiles/;allPanelWithSequence/mainPanelChildPanel/;allPanelWithSequence/;allThreadFiles/;allPanelWithSequence/mainPanelChildPanel/;allThreadFiles/;allPanelWithSequence/mainPanelChildPanel/;allThreadFiles/;allPanelWithSequence/mainPanelChildPanel/;aa_wxSmithPanels/;ab_wxSmithSubPanels/;" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/marineNavigationSystem" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Option projectLinkerOptionsRelation="2" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+				</Compiler>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="`wx-config --cflags`" />
+			<Add option="-Winvalid-pch" />
+			<Add option="-include wx_pch.h" />
+			<Add option="-DWX_PRECOMP" />
+			<Add option="-Wall" />
+		</Compiler>
+		<Linker>
+			<Add option="`wx-config --libs`" />
+		</Linker>
+		<Unit filename="EnterStringDataDialog.cpp" />
+		<Unit filename="EnterStringDataDialog.h" />
+		<Unit filename="EnterSymbolDialog.cpp" />
+		<Unit filename="EnterSymbolDialog.h" />
+		<Unit filename="gpsCalculation.cpp" />
+		<Unit filename="gpsCalculation.h" />
+		<Unit filename="gpsPositionPanelwxSmith.cpp">
+			<Option virtualFolder="aa_wxSmithPanels/" />
+		</Unit>
+		<Unit filename="gpsPositionPanelwxSmith.h">
+			<Option virtualFolder="aa_wxSmithPanels/" />
+		</Unit>
+		<Unit filename="include/firstStartLogoPanel.h">
+			<Option virtualFolder="allPanelWithSequence/mainPanelChildPanel/" />
+		</Unit>
+		<Unit filename="include/gpsThread.h">
+			<Option virtualFolder="allThreadFiles/" />
+		</Unit>
+		<Unit filename="include/jarus.h" />
+		<Unit filename="include/mainPanel.h">
+			<Option virtualFolder="allPanelWithSequence/" />
+		</Unit>
+		<Unit filename="include/mpu9250Thread.h">
+			<Option virtualFolder="allThreadFiles/" />
+		</Unit>
+		<Unit filename="mapPagePanelwxSmith.cpp">
+			<Option virtualFolder="aa_wxSmithPanels/" />
+		</Unit>
+		<Unit filename="mapPagePanelwxSmith.h">
+			<Option virtualFolder="aa_wxSmithPanels/" />
+		</Unit>
+		<Unit filename="mapPageSubPanelwxSmith.cpp">
+			<Option virtualFolder="ab_wxSmithSubPanels/" />
+		</Unit>
+		<Unit filename="mapPageSubPanelwxSmith.h">
+			<Option virtualFolder="ab_wxSmithSubPanels/" />
+		</Unit>
+		<Unit filename="marineNavigationSystemApp.cpp" />
+		<Unit filename="marineNavigationSystemApp.h" />
+		<Unit filename="marineNavigationSystemMain.cpp" />
+		<Unit filename="marineNavigationSystemMain.h" />
+		<Unit filename="markPositionPanelwxSmith.cpp">
+			<Option virtualFolder="aa_wxSmithPanels/" />
+		</Unit>
+		<Unit filename="markPositionPanelwxSmith.h">
+			<Option virtualFolder="aa_wxSmithPanels/" />
+		</Unit>
+		<Unit filename="markPositionSubPanelwxSmith.cpp">
+			<Option virtualFolder="ab_wxSmithSubPanels/" />
+		</Unit>
+		<Unit filename="markPositionSubPanelwxSmith.h">
+			<Option virtualFolder="ab_wxSmithSubPanels/" />
+		</Unit>
+		<Unit filename="minmea.cpp" />
+		<Unit filename="minmea.h" />
+		<Unit filename="mpuFiles/AHRS.cpp" />
+		<Unit filename="mpuFiles/AHRS.hpp" />
+		<Unit filename="mpuFiles/InertialSensor.h" />
+		<Unit filename="mpuFiles/LSM9DS1.cpp" />
+		<Unit filename="mpuFiles/LSM9DS1.h" />
+		<Unit filename="mpuFiles/MPU9250.cpp" />
+		<Unit filename="mpuFiles/MPU9250.h" />
+		<Unit filename="mpuFiles/SPIdev.h" />
+		<Unit filename="mpuFiles/Util.cpp" />
+		<Unit filename="mpuFiles/Util.h" />
+		<Unit filename="myFiles/include/buttonThread.h">
+			<Option virtualFolder="allThreadFiles/" />
+		</Unit>
+		<Unit filename="myFiles/src/buttonThread.cpp">
+			<Option virtualFolder="allThreadFiles/" />
+		</Unit>
+		<Unit filename="routeDefinitionPagePanelwxSmith.cpp">
+			<Option virtualFolder="aa_wxSmithPanels/" />
+		</Unit>
+		<Unit filename="routeDefinitionPagePanelwxSmith.h">
+			<Option virtualFolder="aa_wxSmithPanels/" />
+		</Unit>
+		<Unit filename="satellitePagePanelwxSmith.cpp">
+			<Option virtualFolder="aa_wxSmithPanels/" />
+		</Unit>
+		<Unit filename="satellitePagePanelwxSmith.h">
+			<Option virtualFolder="aa_wxSmithPanels/" />
+		</Unit>
+		<Unit filename="satellitePageSkyviewSubPanelwxSmith.cpp">
+			<Option virtualFolder="ab_wxSmithSubPanels/" />
+		</Unit>
+		<Unit filename="satellitePageSkyviewSubPanelwxSmith.h">
+			<Option virtualFolder="ab_wxSmithSubPanels/" />
+		</Unit>
+		<Unit filename="satellitePageStrengthSubPanelwxSmith.cpp">
+			<Option virtualFolder="ab_wxSmithSubPanels/" />
+		</Unit>
+		<Unit filename="satellitePageStrengthSubPanelwxSmith.h">
+			<Option virtualFolder="ab_wxSmithSubPanels/" />
+		</Unit>
+		<Unit filename="src/firstStartLogoPanel.cpp">
+			<Option virtualFolder="allPanelWithSequence/mainPanelChildPanel/" />
+		</Unit>
+		<Unit filename="src/gpsThread.cpp">
+			<Option virtualFolder="allThreadFiles/" />
+		</Unit>
+		<Unit filename="src/jarus.cpp" />
+		<Unit filename="src/mainPanel.cpp">
+			<Option virtualFolder="allPanelWithSequence/" />
+		</Unit>
+		<Unit filename="src/mpu9250Thread.cpp">
+			<Option virtualFolder="allThreadFiles/" />
+		</Unit>
+		<Unit filename="wx_pch.h">
+			<Option compile="1" />
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="wxsmith/EnterStringDataDialog.wxs" />
+		<Unit filename="wxsmith/EnterSymbolDialog.wxs" />
+		<Unit filename="wxsmith/gpsPositionPanelwxSmith.wxs" />
+		<Unit filename="wxsmith/mapPagePanelwxSmith.wxs" />
+		<Unit filename="wxsmith/mapPageSubPanelwxSmith.wxs" />
+		<Unit filename="wxsmith/markPositionPanelwxSmith.wxs" />
+		<Unit filename="wxsmith/markPositionSubPanelwxSmith.wxs" />
+		<Unit filename="wxsmith/satellitePagePanelwxSmith.wxs" />
+		<Unit filename="wxsmith/satellitePageSkyviewSubPanelwxSmith.wxs" />
+		<Unit filename="wxsmith/satellitePageStrengthSubPanelwxSmith.wxs" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+			<wxsmith version="1">
+				<resources>
+					<wxPanel wxs="wxsmith/gpsPositionPanelwxSmith.wxs" src="gpsPositionPanelwxSmith.cpp" hdr="gpsPositionPanelwxSmith.h" fwddecl="0" i18n="1" name="gpsPositionPanelwxSmith" language="CPP" />
+					<wxPanel wxs="wxsmith/markPositionPanelwxSmith.wxs" src="markPositionPanelwxSmith.cpp" hdr="markPositionPanelwxSmith.h" fwddecl="0" i18n="1" name="markPositionPanelwxSmith" language="CPP" />
+					<wxPanel wxs="wxsmith/routeDefinitionPagePanelwxSmith.wxs" src="routeDefinitionPagePanelwxSmith.cpp" hdr="routeDefinitionPagePanelwxSmith.h" fwddecl="0" i18n="1" name="routeDefinitionPagePanelwxSmith" language="CPP" />
+					<wxPanel wxs="wxsmith/satellitePageStrengthSubPanelwxSmith.wxs" src="satellitePageStrengthSubPanelwxSmith.cpp" hdr="satellitePageStrengthSubPanelwxSmith.h" fwddecl="0" i18n="1" name="satellitePageStrengthSubPanelwxSmith" language="CPP" />
+					<wxPanel wxs="wxsmith/satellitePageSkyviewSubPanelwxSmith.wxs" src="satellitePageSkyviewSubPanelwxSmith.cpp" hdr="satellitePageSkyviewSubPanelwxSmith.h" fwddecl="0" i18n="1" name="satellitePageSkyviewSubPanelwxSmith" language="CPP" />
+					<wxPanel wxs="wxsmith/satellitePagePanelwxSmith.wxs" src="satellitePagePanelwxSmith.cpp" hdr="satellitePagePanelwxSmith.h" fwddecl="0" i18n="1" name="satellitePagePanelwxSmith" language="CPP" />
+					<wxPanel wxs="wxsmith/markPositionSubPanelwxSmith.wxs" src="markPositionSubPanelwxSmith.cpp" hdr="markPositionSubPanelwxSmith.h" fwddecl="0" i18n="1" name="markPositionSubPanelwxSmith" language="CPP" />
+					<wxDialog wxs="wxsmith/EnterStringDataDialog.wxs" src="EnterStringDataDialog.cpp" hdr="EnterStringDataDialog.h" fwddecl="0" i18n="1" name="EnterStringDataDialog" language="CPP" />
+					<wxPanel wxs="wxsmith/mapPagePanelwxSmith.wxs" src="mapPagePanelwxSmith.cpp" hdr="mapPagePanelwxSmith.h" fwddecl="0" i18n="1" name="mapPagePanelwxSmith" language="CPP" />
+					<wxDialog wxs="wxsmith/EnterSymbolDialog.wxs" src="EnterSymbolDialog.cpp" hdr="EnterSymbolDialog.h" fwddecl="0" i18n="1" name="EnterSymbolDialog" language="CPP" />
+					<wxPanel wxs="wxsmith/mapPageSubPanelwxSmith.wxs" src="mapPageSubPanelwxSmith.cpp" hdr="mapPageSubPanelwxSmith.h" fwddecl="0" i18n="1" name="mapPageSubPanelwxSmith" language="CPP" />
+				</resources>
+			</wxsmith>
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
