@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<wxsmith>
+	<object class="wxDialog" name="EnterSymbolDialog">
+		<size>300,500</size>
+		<pos_arg>1</pos_arg>
+		<size_arg>1</size_arg>
+		<object class="wxBoxSizer" variable="BoxSizer1" member="no">
+			<object class="sizeritem">
+				<object class="wxPanel" name="ID_PANEL1" variable="Panel1" member="yes">
+					<object class="wxBoxSizer" variable="BoxSizer2" member="no">
+						<orient>wxVERTICAL</orient>
+						<object class="sizeritem">
+							<object class="wxBoxSizer" variable="BoxSizer3" member="no">
+								<orient>wxVERTICAL</orient>
+								<object class="sizeritem">
+									<object class="wxStaticText" name="ID_STATICTEXT1" variable="displayName" member="yes">
+										<label>DISPLAY:-</label>
+									</object>
+									<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+									<border>5</border>
+									<option>1</option>
+								</object>
+								<object class="sizeritem">
+									<object class="wxStaticText" name="ID_STATICTEXT2" variable="nameWithSymbolName" member="yes">
+										<label>NAME WITH SYMBOL</label>
+									</object>
+									<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+									<border>5</border>
+									<option>1</option>
+								</object>
+								<object class="sizeritem">
+									<object class="wxStaticText" name="ID_STATICTEXT3" variable="variSymbolOnly" member="yes">
+										<label>SYMBOL ONLY</label>
+									</object>
+									<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+									<border>5</border>
+									<option>1</option>
+								</object>
+								<object class="sizeritem">
+									<object class="wxStaticText" name="ID_STATICTEXT5" variable="variCommentWithSymbol" member="yes">
+										<label>COMMENT WITH SYMBOL</label>
+									</object>
+									<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+									<border>5</border>
+									<option>1</option>
+								</object>
+							</object>
+							<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxGridSizer" variable="GridSizer1" member="no">
+								<cols>4</cols>
+								<rows>4</rows>
+								<object class="sizeritem">
+									<object class="wxPanel" name="ID_PANEL2" variable="symbolPanel2" member="yes">
+										<object class="wxBoxSizer" variable="BoxSizer4" member="no">
+											<object class="sizeritem">
+												<object class="wxStaticBitmap" name="ID_STATICBITMAP1" variable="StaticBitmap1" member="yes" />
+												<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+												<border>5</border>
+												<option>1</option>
+											</object>
+										</object>
+									</object>
+									<flag>wxALL|wxEXPAND</flag>
+									<border>5</border>
+									<option>1</option>
+								</object>
+								<object class="sizeritem">
+									<object class="wxPanel" name="ID_PANEL3" variable="symbolPanel3" member="yes">
+										<object class="wxBoxSizer" variable="BoxSizer5" member="no">
+											<object class="sizeritem">
+												<object class="wxStaticBitmap" name="ID_STATICBITMAP2" variable="StaticBitmap2" member="yes" />
+												<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+												<border>5</border>
+												<option>1</option>
+											</object>
+										</object>
+									</object>
+									<flag>wxALL|wxEXPAND</flag>
+									<border>5</border>
+									<option>1</option>
+								</object>
+								<object class="sizeritem">
+									<object class="wxPanel" name="ID_PANEL4" variable="symbolPanel4" member="yes">
+										<object class="wxBoxSizer" variable="BoxSizer6" member="no">
+											<object class="sizeritem">
+												<object class="wxStaticBitmap" name="ID_STATICBITMAP3" variable="StaticBitmap3" member="yes" />
+												<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+												<border>5</border>
+												<option>1</option>
+											</object>
+										</object>
+									</object>
+									<flag>wxALL|wxEXPAND</flag>
+									<border>5</border>
+									<option>1</option>
+								</object>
+								<object class="sizeritem">
+									<object class="wxPanel" name="ID_PANEL5" variable="symbolPanel5" member="yes">
+										<object class="wxBoxSizer" variable="BoxSizer7" member="no">
+											<object class="sizeritem">
+												<object class="wxStaticBitmap" name="ID_STATICBITMAP4" variable="StaticBitmap4" member="yes" />
+												<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+												<border>5</border>
+												<option>1</option>
+											</object>
+										</object>
+									</object>
+									<flag>wxALL|wxEXPAND</flag>
+									<border>5</border>
+									<option>1</option>
+								</object>
+								<object class="sizeritem">
+									<object class="wxPanel" name="ID_PANEL6" variable="symbolPanel6" member="yes">
+										<object class="wxBoxSizer" variable="BoxSizer8" member="no">
+											<object class="sizeritem">
+												<object class="wxStaticBitmap" name="ID_STATICBITMAP5" variable="StaticBitmap5" member="yes" />
+												<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+												<border>5</border>
+												<option>1</option>
+											</object>
+										</object>
+									</object>
+									<flag>wxALL|wxEXPAND</flag>
+									<border>5</border>
+									<option>1</option>
+								</object>
+								<object class="sizeritem">
+									<object class="wxPanel" name="ID_PANEL7" variable="symbolPanel7" member="yes">
+										<object class="wxBoxSizer" variable="BoxSizer9" member="no">
+											<object class="sizeritem">
+												<object class="wxStaticBitmap" name="ID_STATICBITMAP6" variable="StaticBitmap6" member="yes" />
+												<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+												<border>5</border>
+												<option>1</option>
+											</object>
+										</object>
+									</object>
+									<flag>wxALL|wxEXPAND</flag>
+									<border>5</border>
+									<option>1</option>
+								</object>
+								<object class="sizeritem">
+									<object class="wxPanel" name="ID_PANEL8" variable="symbolPanel8" member="yes">
+										<object class="wxBoxSizer" variable="BoxSizer10" member="no">
+											<object class="sizeritem">
+												<object class="wxStaticBitmap" name="ID_STATICBITMAP7" variable="StaticBitmap7" member="yes" />
+												<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+												<border>5</border>
+												<option>1</option>
+											</object>
+										</object>
+									</object>
+									<flag>wxALL|wxEXPAND</flag>
+									<border>5</border>
+									<option>1</option>
+								</object>
+								<object class="sizeritem">
+									<object class="wxPanel" name="ID_PANEL9" variable="symbolPanel9" member="yes">
+										<object class="wxBoxSizer" variable="BoxSizer11" member="no">
+											<object class="sizeritem">
+												<object class="wxStaticBitmap" name="ID_STATICBITMAP8" variable="StaticBitmap8" member="yes" />
+												<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+												<border>5</border>
+												<option>1</option>
+											</object>
+										</object>
+									</object>
+									<flag>wxALL|wxEXPAND</flag>
+									<border>5</border>
+									<option>1</option>
+								</object>
+								<object class="sizeritem">
+									<object class="wxPanel" name="ID_PANEL10" variable="symbolPanel10" member="yes">
+										<object class="wxBoxSizer" variable="BoxSizer12" member="no">
+											<object class="sizeritem">
+												<object class="wxStaticBitmap" name="ID_STATICBITMAP9" variable="StaticBitmap9" member="yes" />
+												<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+												<border>5</border>
+												<option>1</option>
+											</object>
+										</object>
+									</object>
+									<flag>wxALL|wxEXPAND</flag>
+									<border>5</border>
+									<option>1</option>
+								</object>
+								<object class="sizeritem">
+									<object class="wxPanel" name="ID_PANEL11" variable="symbolPanel11" member="yes">
+										<object class="wxBoxSizer" variable="BoxSizer13" member="no">
+											<object class="sizeritem">
+												<object class="wxStaticBitmap" name="ID_STATICBITMAP10" variable="StaticBitmap10" member="yes" />
+												<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+												<border>5</border>
+												<option>1</option>
+											</object>
+										</object>
+									</object>
+									<flag>wxALL|wxEXPAND</flag>
+									<border>5</border>
+									<option>1</option>
+								</object>
+								<object class="sizeritem">
+									<object class="wxPanel" name="ID_PANEL12" variable="symbolPanel12" member="yes">
+										<object class="wxBoxSizer" variable="BoxSizer14" member="no">
+											<object class="sizeritem">
+												<object class="wxStaticBitmap" name="ID_STATICBITMAP11" variable="StaticBitmap11" member="yes" />
+												<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+												<border>5</border>
+												<option>1</option>
+											</object>
+										</object>
+									</object>
+									<flag>wxALL|wxEXPAND</flag>
+									<border>5</border>
+									<option>1</option>
+								</object>
+								<object class="sizeritem">
+									<object class="wxPanel" name="ID_PANEL13" variable="symbolPanel13" member="yes">
+										<object class="wxBoxSizer" variable="BoxSizer15" member="no">
+											<object class="sizeritem">
+												<object class="wxStaticBitmap" name="ID_STATICBITMAP12" variable="StaticBitmap12" member="yes" />
+												<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+												<border>5</border>
+												<option>1</option>
+											</object>
+										</object>
+									</object>
+									<flag>wxALL|wxEXPAND</flag>
+									<border>5</border>
+									<option>1</option>
+								</object>
+								<object class="sizeritem">
+									<object class="wxPanel" name="ID_PANEL14" variable="symbolPanel14" member="yes">
+										<object class="wxBoxSizer" variable="BoxSizer16" member="no">
+											<object class="sizeritem">
+												<object class="wxStaticBitmap" name="ID_STATICBITMAP13" variable="StaticBitmap13" member="yes" />
+												<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+												<border>5</border>
+												<option>1</option>
+											</object>
+										</object>
+									</object>
+									<flag>wxALL|wxEXPAND</flag>
+									<border>5</border>
+									<option>1</option>
+								</object>
+								<object class="sizeritem">
+									<object class="wxPanel" name="ID_PANEL15" variable="symbolPanel15" member="yes">
+										<object class="wxBoxSizer" variable="BoxSizer17" member="no">
+											<object class="sizeritem">
+												<object class="wxStaticBitmap" name="ID_STATICBITMAP14" variable="StaticBitmap14" member="yes" />
+												<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+												<border>5</border>
+												<option>1</option>
+											</object>
+										</object>
+									</object>
+									<flag>wxALL|wxEXPAND</flag>
+									<border>5</border>
+									<option>1</option>
+								</object>
+								<object class="sizeritem">
+									<object class="wxPanel" name="ID_PANEL16" variable="symbolPanel16" member="yes">
+										<object class="wxBoxSizer" variable="BoxSizer18" member="no">
+											<object class="sizeritem">
+												<object class="wxStaticBitmap" name="ID_STATICBITMAP15" variable="StaticBitmap15" member="yes" />
+												<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+												<border>5</border>
+												<option>1</option>
+											</object>
+										</object>
+									</object>
+									<flag>wxALL|wxEXPAND</flag>
+									<border>5</border>
+									<option>1</option>
+								</object>
+								<object class="sizeritem">
+									<object class="wxPanel" name="ID_PANEL17" variable="symbolPanel17" member="yes">
+										<object class="wxBoxSizer" variable="BoxSizer19" member="no">
+											<object class="sizeritem">
+												<object class="wxStaticBitmap" name="ID_STATICBITMAP17" variable="StaticBitmap16" member="yes">
+													<size>50,50</size>
+												</object>
+												<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+												<border>5</border>
+												<option>1</option>
+											</object>
+										</object>
+									</object>
+									<flag>wxALL|wxEXPAND</flag>
+									<border>5</border>
+									<option>1</option>
+								</object>
+							</object>
+							<flag>wxALL|wxEXPAND</flag>
+							<border>5</border>
+							<option>3</option>
+						</object>
+					</object>
+				</object>
+				<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+				<border>5</border>
+				<option>1</option>
+			</object>
+		</object>
+	</object>
+</wxsmith>

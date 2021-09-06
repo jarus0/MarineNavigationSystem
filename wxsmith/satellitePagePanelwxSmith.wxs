@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<wxsmith>
+	<object class="wxPanel" name="satellitePagePanelwxSmith">
+		<id_arg>0</id_arg>
+		<object class="wxBoxSizer" variable="BoxSizer1" member="no">
+			<orient>wxVERTICAL</orient>
+			<object class="sizeritem">
+				<object class="wxBoxSizer" variable="BoxSizer2" member="no">
+					<object class="sizeritem">
+						<object class="wxBoxSizer" variable="BoxSizer3" member="no">
+							<orient>wxVERTICAL</orient>
+							<object class="sizeritem">
+								<object class="wxStaticText" name="ID_STATICTEXT1" variable="satelliteStatusName" member="yes">
+									<label>Status</label>
+								</object>
+								<flag>wxALL|wxALIGN_LEFT</flag>
+								<border>1</border>
+								<option>1</option>
+							</object>
+						</object>
+						<flag>wxALL|wxEXPAND</flag>
+						<border>1</border>
+						<option>1</option>
+					</object>
+					<object class="sizeritem">
+						<object class="wxBoxSizer" variable="BoxSizer4" member="no">
+							<orient>wxVERTICAL</orient>
+							<object class="sizeritem">
+								<object class="wxStaticText" name="ID_STATICTEXT2" variable="estimatedPostionErrorName" member="yes">
+									<label>EPE</label>
+									<font>
+										<size>18</size>
+										<style>normal</style>
+										<weight>bold</weight>
+										<underlined>0</underlined>
+										<family>swiss</family>
+										<face>Sans</face>
+									</font>
+								</object>
+								<flag>wxALL|wxALIGN_RIGHT</flag>
+								<border>1</border>
+								<option>1</option>
+							</object>
+						</object>
+						<flag>wxALL|wxEXPAND</flag>
+						<border>1</border>
+						<option>1</option>
+					</object>
+				</object>
+				<flag>wxALL|wxEXPAND</flag>
+				<border>5</border>
+				<option>1</option>
+			</object>
+			<object class="sizeritem">
+				<object class="wxBoxSizer" variable="temporaryDelteLater" member="no">
+					<object class="sizeritem">
+						<object class="wxStaticText" name="ID_STATICTEXT3" variable="StaticText1" member="yes">
+							<label>lookup</label>
+						</object>
+						<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+						<border>5</border>
+						<option>1</option>
+					</object>
+				</object>
+				<flag>wxALL|wxEXPAND</flag>
+				<border>5</border>
+				<option>1</option>
+			</object>
+			<object class="sizeritem">
+				<object class="wxBoxSizer" variable="BoxSizer5" member="no">
+					<orient>wxVERTICAL</orient>
+					<object class="sizeritem">
+						<object class="wxPanel" name="ID_PANEL1" variable="skyview" member="yes">
+							<extra_code>satellitePageSkyviewSubPanelwxSmithPointer = new satellitePageSkyviewSubPanelwxSmith(this);&#x0A;skyview = satellitePageSkyviewSubPanelwxSmithPointer;&#x0A;&#x09;</extra_code>
+						</object>
+						<flag>wxALL|wxEXPAND</flag>
+						<border>1</border>
+						<option>5</option>
+					</object>
+					<object class="sizeritem">
+						<object class="wxPanel" name="ID_PANEL2" variable="strengthBar" member="yes">
+							<extra_code>satellitePageStrengthSubPanelwxSmithPointer = new satellitePageStrengthSubPanelwxSmith(this);&#x09;&#x0A;strengthBar = satellitePageStrengthSubPanelwxSmithPointer;</extra_code>
+						</object>
+						<flag>wxALL|wxEXPAND</flag>
+						<border>1</border>
+						<option>1</option>
+					</object>
+				</object>
+				<flag>wxALL|wxEXPAND</flag>
+				<border>1</border>
+				<option>20</option>
+			</object>
+		</object>
+	</object>
+</wxsmith>
